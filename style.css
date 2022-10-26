@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1000px;
+
+    border: 2px solid #eee;
+    padding: 20px;
+
+    user-select: none;
+}
+
+h2{
+    color: blueviolet;
+    text-align: center;
+}
+
+button{
+    margin: 5px;
+}
+
+
+
+.divArea{
+    width: 100%;
+    height: 200px;
+
+    border: 1px solid blueviolet;
+    margin: 10px 0;
+    padding: 10px;
+
+    text-align: justify;
+
+    resize: vertical;
+    overflow-y: scroll;
+}
+
+.divArea.upper{
+    text-transform: uppercase;
+}
+
+.divArea.lower{
+    text-transform: lowercase;
+}
+
+.divArea.capi{
+    text-transform: capitalize;
+}
+
+.divArea:focus{
+    outline: none;
+}
+
+.controlBtn{
+    text-align: right;
+}
